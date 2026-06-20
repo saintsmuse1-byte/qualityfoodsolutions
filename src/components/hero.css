@@ -1,0 +1,27 @@
+.hero-container1 {
+  display: contents;
+  overflow: hidden;
+}
+ 
+.hero-thq-hero-section-elm {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+ 
+.hero-container2 {
+  display: none;
+}
+ 
+.hero-container3 {
+  display: contents;
+}
+ 
+.hero-container4 {
+  display: none;
+}
+ 
+.hero-container5 {
+  display: contents;
+}
