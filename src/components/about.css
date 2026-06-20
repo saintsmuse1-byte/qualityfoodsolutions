@@ -1,0 +1,34 @@
+.about-container1 {
+  display: contents;
+}
+ 
+.about-thq-about-actions-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.about-thq-thq-about-main-image-elm-elm {
+  width: 465px;
+  height: 588px;
+}
+ 
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.about-container2 {
+  display: none;
+}
+ 
+.about-container3 {
+  display: contents;
+}
+ 
+.about-container4 {
+  display: none;
+}
+ 
+.about-container5 {
+  display: contents;
+}
