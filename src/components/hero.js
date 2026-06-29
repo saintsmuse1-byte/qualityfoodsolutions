@@ -11,7 +11,7 @@ const Hero = (props) => {
       <section className="hero-thq-hero-section-elm hero-section">
         <div className="hero-media-container">
           <img
-            src="https://images.pexels.com/photos/11987205/pexels-photo-11987205.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+            src="wheat.jpg"
             alt="Golden wheat field at sunset"
             className="hero-bg-image"
           />
