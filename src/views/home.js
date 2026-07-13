@@ -25,7 +25,7 @@ const Home = (props) => {
         <section className="home-thq-hero-section-elm hero-section">
           <div className="hero-media-container">
             <div className="home-thq-hero-overlay-elm hero-overlay"></div>
-            <img src="/wheat-1100h.jpg" alt="image" className="home-image" />
+            <img src="/wheat.jpg" alt="image" className="home-image" />
           </div>
           <div className="hero-content-wrapper">
             <div className="hero-text-block">
