@@ -10,8 +10,8 @@ const Home = (props) => {
   return (
     <div className="home-container1">
       <Helmet>
-        <title>Circular Self Reliant Sheep</title>
-        <meta property="og:title" content="Circular Self Reliant Sheep" />
+        <title>Quality Food Solutions</title>
+        <meta property="og:title" content="Quality Food Solutions" />
         <link
           rel="canonical"
           href="https://circular-self-reliant-sheep-lh9nyn.teleporthq.site/"
