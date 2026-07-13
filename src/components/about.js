@@ -87,7 +87,7 @@ const About = (props) => {
               <div className="about-image-card">
                 <div className="about-thq-thq-about-main-image-elm-elm about-main-image">
                   <img
-                    src="/chicken-1500w.jpg"
+                    src="/chicken.jpg"
                     alt="image"
                     className="about-image"
                   />
