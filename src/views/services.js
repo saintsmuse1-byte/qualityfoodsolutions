@@ -75,18 +75,15 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2m10 0H9m10 0h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
-                    <circle cx="17" cy="18" r="2"></circle>
-                    <circle cx="7" cy="18" r="2"></circle>
-                  </g>
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="6"></circle>
+                  <circle cx="12" cy="12" r="1"></circle>
                 </svg>
               </div>
               <h3 className="section-subtitle">01. Identifying Proven Traction</h3>
@@ -103,17 +100,14 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0"></path>
-                    <path d="M5 17H3v-4M2 5h11v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M3 9h4"></path>
-                  </g>
+                  <line x1="12" y1="1" x2="12" y2="23"></line>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                 </svg>
               </div>
               <h3 className="section-subtitle">02. Deploying Growth Capital</h3>
@@ -130,15 +124,14 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
-                  ></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
                 </svg>
               </div>
               <h3 className="section-subtitle">03. Embedding Operational Excellence</h3>
@@ -155,17 +148,15 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11"></path>
-                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8zM6 13h12M6 17h12"></path>
-                  </g>
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <polyline points="9 15 11 17 15 13"></polyline>
                 </svg>
               </div>
               <h3 className="section-subtitle">04. Driving Investment Readiness</h3>
@@ -182,17 +173,16 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73zm1 .27V12"></path>
-                    <path d="M3.29 7L12 12l8.71-5M7.5 4.27l9 5.15"></path>
-                  </g>
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
               </div>
               <h3 className="section-subtitle">05. Fostering Sustainable Employment</h3>
@@ -209,17 +199,15 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
-                    <path d="m19 9l-5 5l-4-4l-3 3"></path>
-                  </g>
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
                 </svg>
               </div>
               <h3 className="section-subtitle">06. Anchoring Local Value Chains</h3>
@@ -280,7 +268,7 @@ const Services = (props) => {
           </div>
         </div>
       </section>
-                  
+                    
       <section className="logistics-process">
         <div className="logistics-process-container">
           <div className="logistics-process-header">
@@ -296,24 +284,14 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <rect
-                      width="14"
-                      height="20"
-                      x="5"
-                      y="2"
-                      rx="2"
-                      ry="2"
-                    ></rect>
-                    <path d="M12 18h.01"></path>
-                  </g>
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
                 </svg>
               </div>
               <h3 className="section-subtitle">Geography</h3>
@@ -328,17 +306,14 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
-                    <path d="m19 9l-5 5l-4-4l-3 3"></path>
-                  </g>
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                  <polyline points="17 6 23 6 23 12"></polyline>
                 </svg>
               </div>
               <h3 className="section-subtitle">Traction</h3>
@@ -353,17 +328,14 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                    <path d="m9 12l2 2l4-4"></path>
-                  </g>
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
                 </svg>
               </div>
               <h3 className="section-subtitle">Potential</h3>
@@ -378,18 +350,14 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2m10 0H9m10 0h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
-                    <circle cx="17" cy="18" r="2"></circle>
-                    <circle cx="7" cy="18" r="2"></circle>
-                  </g>
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="m9 12 2 2 4-4"></path>
                 </svg>
               </div>
               <h3 className="section-subtitle">Alignment</h3>
@@ -504,17 +472,14 @@ const Services = (props) => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path>
-                    <path d="M6 14a12 12 0 0 0 2.4 7.2a2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14M8 6v8"></path>
-                  </g>
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
                 <span>james@qualityfoodsolutions.co.za</span>
               </div>
