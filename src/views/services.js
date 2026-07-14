@@ -11,10 +11,10 @@ const Services = (props) => {
   return (
     <div className="services-container1">
       <Helmet>
-        <title>Services</title>
+        <title>Services | Scale Africa</title>
         <meta
           property="og:title"
-          content="Services"
+          content="Services | Scale Africa"
         />
         <link
           rel="canonical"
@@ -28,7 +28,7 @@ const Services = (props) => {
       <Navigation></Navigation>
       <section className="hero-maize">
         <video
-          autoPlay="true"
+          autoPlay
           muted
           loop
           playsInline
@@ -41,7 +41,9 @@ const Services = (props) => {
           <h1 className="hero-title">
             Fueling the Scale of African Enterprise
           </h1>
-          <p className="hero-subtitle">We partner with high-potential African SMEs that already demonstrate commercial traction, providing the capital, expertise, and operational support needed to scale sustainably.</p>
+          <p className="hero-subtitle">
+            We partner with high-potential African SMEs that already demonstrate commercial traction, providing the capital, expertise, and operational support needed to scale sustainably.
+          </p>
           <div className="hero-maize-actions">
             <a href="#contact">
               <div className="btn btn-accent btn-lg">
@@ -56,11 +58,13 @@ const Services = (props) => {
           </div>
         </div>
       </section>
+
       <section id="services" className="core-services">
         <div className="core-services-container">
           <div className="core-services-header">
             <h2 className="section-title">Our Mission in Action</h2>
             <p className="section-content">
+              We empower high-potential businesses to evolve from local operations into institutional-grade powerhouses.
             </p>
           </div>
           <div className="core-services-grid">
@@ -88,9 +92,8 @@ const Services = (props) => {
               <h3 className="section-subtitle">01. Identifying Proven Traction</h3>
               <p className="section-content">
                 We bypass early-stage ideation to focus exclusively on high-potential African SMEs 
-                      that have already proven their market fit. 
-                        By partnering with businesses that possess clear commercial momentum, 
-                        we ensure our resources are directed where they can catalyze immediate, viable growth.
+                that have already proven their market fit. By partnering with businesses that possess 
+                clear commercial momentum, we ensure our resources catalyze immediate, viable growth.
               </p>
             </div>
             <div className="service-card">
@@ -115,10 +118,9 @@ const Services = (props) => {
               </div>
               <h3 className="section-subtitle">02. Deploying Growth Capital</h3>
               <p className="section-content">
-            Scaling requires flexible, intentional financing. 
-                We inject targeted growth capital specifically structured to unlock operational bottlenecks, 
-                      fund machinery or technology upgrades, and provide the 
-                      runway needed to capture larger market shares.
+                Scaling requires flexible, intentional financing. We inject targeted growth capital 
+                specifically structured to unlock operational bottlenecks, fund machinery or technology 
+                upgrades, and provide the runway needed to capture larger market shares.
               </p>
             </div>
             <div className="service-card">
@@ -141,10 +143,9 @@ const Services = (props) => {
               </div>
               <h3 className="section-subtitle">03. Embedding Operational Excellence</h3>
               <p className="section-content">
-                Capital alone isn't enough. We embed deep, hands-on operational and commercial
-                      expertise directly into our partner companies. 
-                      From streamlining internal workflows to refining pricing and 
-                      product development, we build structural strength from the inside out.
+                Capital alone isn't enough. We embed deep, hands-on operational and commercial 
+                expertise directly into our partner companies. From streamlining internal workflows 
+                to refining pricing and product development, we build structural strength from the inside out.
               </p>
             </div>
             <div className="service-card">
@@ -169,11 +170,9 @@ const Services = (props) => {
               </div>
               <h3 className="section-subtitle">04. Driving Investment Readiness</h3>
               <p className="section-content">
-                We prepare your business for its next institutional horizon. 
-                      By upgrading financial governance, compliance frameworks, 
-                      and strategic data rooms, we transition highly functional 
-                      SMEs into institutional-grade targets that are fully ready 
-                        for subsequent major funding rounds.
+                We prepare your business for its next institutional horizon. By upgrading financial 
+                governance, compliance frameworks, and strategic data rooms, we transition highly functional 
+                SMEs into institutional-grade targets ready for major funding rounds.
               </p>
             </div>
             <div className="service-card">
@@ -198,11 +197,9 @@ const Services = (props) => {
               </div>
               <h3 className="section-subtitle">05. Fostering Sustainable Employment</h3>
               <p className="section-content">
-                True economic scale is measured by human impact. 
-                      Every partnership we form is deeply tied to 
-                      measurable job creation, turning commercial expansion 
-                        into stable, long-term employment opportunities and 
-                          career paths within local communities.
+                True economic scale is measured by human impact. Every partnership we form is deeply 
+                tied to measurable job creation, turning commercial expansion into stable, long-term 
+                employment opportunities and career paths within local communities.
               </p>
             </div>
             <div className="service-card">
@@ -227,21 +224,21 @@ const Services = (props) => {
               </div>
               <h3 className="section-subtitle">06. Anchoring Local Value Chains</h3>
               <p className="section-content">
-                We believe in keeping economic value where it originates.
-                      We actively help our partners secure broader market access, 
-                      elevate their raw value addition, and build resilient local 
-                      supply chains that reduce reliance on volatile external markets.
+                We believe in keeping economic value where it originates. We actively help our partners 
+                secure broader market access, elevate raw value addition, and build resilient local 
+                supply chains that reduce reliance on volatile external markets.
               </p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="supply-chain">
         <div className="supply-chain-container">
           <div className="supply-chain-header">
-            <h2 className="section-title">Supply Chain Capabilities</h2>
+            <h2 className="section-title">Our Scaling Framework</h2>
             <p className="section-content">
-              End-to-end integration for maximum efficiency and transparency.
+              Structured methodology designed to institutionalize, professionalize, and scale your operations.
             </p>
           </div>
           <div className="supply-chain-steps">
@@ -249,51 +246,48 @@ const Services = (props) => {
               <div className="step-number">
                 <span>01</span>
               </div>
-              <h3 className="section-subtitle">Procurement Coordination</h3>
+              <h3 className="section-subtitle">Operational Diagnostic</h3>
               <p className="section-content">
-                Direct sourcing from certified growers to ensure premium raw
-                material quality.
+                A thorough baseline analysis of current workflows, capacity bottlenecks, and margin leaks.
               </p>
             </div>
             <div className="step-item">
               <div className="step-number">
                 <span>02</span>
               </div>
-              <h3 className="section-subtitle">Demand Forecasting</h3>
+              <h3 className="section-subtitle">Governance Setup</h3>
               <p className="section-content">
-                Predictive analytics to align inventory levels with market
-                seasonalities.
+                Upgrading internal reporting, financial audits, and executive advisory structures.
               </p>
             </div>
             <div className="step-item">
               <div className="step-number">
                 <span>03</span>
               </div>
-              <h3 className="section-subtitle">Inventory Management</h3>
+              <h3 className="section-subtitle">Targeted Interventions</h3>
               <p className="section-content">
-                Real-time tracking and stock rotation to eliminate waste and
-                optimize space.
+                Deploying growth capital directly into key structural pain points like machinery or software.
               </p>
             </div>
             <div className="step-item">
               <div className="step-number">
                 <span>04</span>
               </div>
-              <h3 className="section-subtitle">Traceability</h3>
+              <h3 className="section-subtitle">Institutional Readiness</h3>
               <p className="section-content">
-                Full digital audit trails from the field to the final delivery
-                destination.
+                Building comprehensive strategic data rooms to attract subsequent-stage institutional capital.
               </p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="value-added">
         <div className="value-added-container">
           <div className="value-added-header">
-            <h2 className="section-title">Value-Added Services</h2>
+            <h2 className="section-title">Hands-On Value-Added Services</h2>
             <p className="section-content">
-              Beyond transport—enhancing your products at every touchpoint.
+              Beyond finance—enhancing your business capabilities at every critical level.
             </p>
           </div>
           <div className="value-added-grid">
@@ -316,10 +310,9 @@ const Services = (props) => {
                   <path d="m4 10l1.5 2L4 14m3 7l3-6l-1.5-3M7 3l3 6h2"></path>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Cold Chain Solutions</h3>
+              <h3 className="section-subtitle">Strategic Advisory</h3>
               <p className="section-content">
-                Climate-controlled storage and transit preserving nutritional
-                value and freshness.
+                Connecting founders with industry veterans to refine product-market fit and commercial strategy.
               </p>
             </div>
             <div className="value-card">
@@ -342,10 +335,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Warehousing</h3>
+              <h3 className="section-subtitle">Financial Restructuring</h3>
               <p className="section-content">
-                Strategically located hubs with 50,000+ sq ft capacity for dry
-                and cool storage.
+                Establishing world-class cash management, dynamic modeling, and robust bookkeeping pipelines.
               </p>
             </div>
             <div className="value-card">
@@ -368,10 +360,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Quality Inspection</h3>
+              <h3 className="section-subtitle">Compliance Audits</h3>
               <p className="section-content">
-                Rigorous multi-point checks at intake and dispatch for 100%
-                compliance.
+                Reviewing tax status, legal contracts, and environmental/ESG alignment to mitigate risk.
               </p>
             </div>
             <div className="value-card">
@@ -394,10 +385,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Repackaging</h3>
+              <h3 className="section-subtitle">Tech Integration</h3>
               <p className="section-content">
-                Flexible unit-sizing and bundling to meet specific retail and
-                wholesale requirements.
+                Integrating modern CRM, ERP, and automation tools into your existing hardware ecosystem.
               </p>
             </div>
             <div className="value-card">
@@ -415,15 +405,14 @@ const Services = (props) => {
                     strokeLinejoin="round"
                     strokeWidth="2"
                   >
-                    <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
+                    <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 6-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
                     <path d="M14 2v5a1 1 0 0 0 1 1h5m-4 5l-3.5 3.5l-2-2L8 17"></path>
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Labeling</h3>
+              <h3 className="section-subtitle">ESG Strategy</h3>
               <p className="section-content">
-                Custom barcode and compliance labeling for seamless inventory
-                integration.
+                Aligning business models with local and global ESG metrics to unlock sustainable capital pools.
               </p>
             </div>
             <div className="value-card">
@@ -444,21 +433,21 @@ const Services = (props) => {
                   ></path>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Light Processing</h3>
+              <h3 className="section-subtitle">Leadership Development</h3>
               <p className="section-content">
-                On-site cleaning, sorting, and drying services for agricultural
-                commodities.
+                Coaching management teams and resolving recruitment hurdles to support rapid operational scaling.
               </p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="logistics-process">
         <div className="logistics-process-container">
           <div className="logistics-process-header">
-            <h2 className="section-title">Logistics Management Process</h2>
+            <h2 className="section-title">Our Scaling Process</h2>
             <p className="section-content">
-              From intake to delivery—precision management at every step.
+              A transparent, high-touch partnership journey built for rapid, reliable expansion.
             </p>
           </div>
           <div className="logistics-process-steps">
@@ -489,9 +478,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Order Intake</h3>
+              <h3 className="section-subtitle">1. Discovery & Match</h3>
               <p className="section-content">
-                Automated digital processing and order verification.
+                Initial evaluation of your SME's market traction, fit, and scale goals.
               </p>
             </div>
             <div className="process-step">
@@ -514,9 +503,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Routing Optimization</h3>
+              <h3 className="section-subtitle">2. Deep Diagnostic</h3>
               <p className="section-content">
-                AI-driven pathfinding to minimize fuel and transit time.
+                Collaborative deep-dive into your financials, operations, and organizational gaps.
               </p>
             </div>
             <div className="process-step">
@@ -539,9 +528,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Compliance Check</h3>
+              <h3 className="section-subtitle">3. Co-Investment</h3>
               <p className="section-content">
-                Final safety and quality audits before dispatch.
+                Drafting terms, structured growth capital release, and hands-on target roadmap.
               </p>
             </div>
             <div className="process-step">
@@ -565,101 +554,100 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Final Delivery</h3>
+              <h3 className="section-subtitle">4. Scale-Up Phase</h3>
               <p className="section-content">
-                Real-time tracking and proof-of-delivery confirmation.
+                Execution of systems upgrades, active scaling, and preparation for Series A/B.
               </p>
             </div>
           </div>
         </div>
       </section>
+
       <section className="performance-stats">
         <div className="performance-stats-container">
           <div className="performance-stats-header">
-            <h2 className="section-title">Performance &amp; Reliability</h2>
+            <h2 className="section-title">Performance &amp; Scale Metrics</h2>
             <p className="section-content">
-              The numbers that define our commitment to your growth.
+              The metrics that define our commitment to institutional growth and local impact.
             </p>
           </div>
           <div className="performance-stats-grid">
             <div className="stat-card">
-              <span className="stat-number">99.8%</span>
-              <h3 className="section-subtitle">On-Time Delivery</h3>
+              <span className="stat-number">85%+</span>
+              <h3 className="section-subtitle">Average Job Growth</h3>
             </div>
             <div className="stat-card">
               <span className="stat-number">100%</span>
-              <h3 className="section-subtitle">Cold-Chain Retention</h3>
+              <h3 className="section-subtitle">Governance Audit Compliance</h3>
             </div>
             <div className="stat-card">
-              <span className="stat-number">50k+</span>
-              <h3 className="section-subtitle">Warehouse Capacity (sq ft)</h3>
+              <span className="stat-number">3.2x</span>
+              <h3 className="section-subtitle">Average Portfolio Scaling</h3>
             </div>
             <div className="stat-card">
-              <span className="stat-number">&lt; 24h</span>
-              <h3 className="section-subtitle">Average Lead Time</h3>
+              <span className="stat-number">&lt; 12 Wks</span>
+              <h3 className="section-subtitle">Average Deal Close Time</h3>
             </div>
             <div className="stat-card">
-              <span className="stat-number">1.2M</span>
-              <h3 className="section-subtitle">Tons Distributed Annually</h3>
+              <span className="stat-number">$15M+</span>
+              <h3 className="section-subtitle">Capital Catalyzed</h3>
             </div>
             <div className="stat-card">
               <span className="stat-number">Zero</span>
-              <h3 className="section-subtitle">Safety Incidents</h3>
+              <h3 className="section-subtitle">Compliance Breaches</h3>
             </div>
           </div>
         </div>
       </section>
+
       <section className="case-studies">
         <div className="case-studies-rail">
           <div className="case-card">
             <div className="case-image">
               <img
                 src="https://images.pexels.com/photos/1382102/pexels-photo-1382102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Maize harvest case study"
+                alt="Agro-Processing Case Study"
               />
             </div>
             <div className="case-content">
-              <h3 className="section-subtitle">Regional Maize Hub Expansion</h3>
+              <h3 className="section-subtitle">Regional Agro-Processing Expansion</h3>
               <p className="section-content">
-                &quot;Quality Food Solutions optimized our distribution routes,
-                reducing transit time by 30%.&quot; — AgriCorp CEO
+                &quot;Their hands-on operational blueprint and targeted machinery capital helped us double processing capacity.&quot; — AgriCorp CEO
               </p>
-              <span className="case-outcome">Outcome: +25% Profitability</span>
+              <span className="case-outcome">Outcome: +120% Revenue Scale</span>
             </div>
           </div>
           <div className="case-card">
             <div className="case-image">
               <img
                 src="https://images.pexels.com/photos/17965454/pexels-photo-17965454.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Cold chain success"
+                alt="FMCG Case Study"
               />
             </div>
             <div className="case-content">
               <h3 className="section-subtitle">
-                Fresh Produce Cold-Chain Success
+                FMCG Manufacturing Scaling
               </h3>
               <p className="section-content">
-                &quot;Their temperature monitoring is flawless. We haven&apos;t
-                lost a single pallet in two years.&quot; — FreshLink Logistics
+                &quot;The restructuring of our financial reporting system unlocked institutional bank lines for the first time in years.&quot; — FMCG Director
               </p>
-              <span className="case-outcome">Outcome: 0% Product Loss</span>
+              <span className="case-outcome">Outcome: 100% Audit Readiness</span>
             </div>
           </div>
           <div className="case-card">
             <div className="case-image">
               <img
                 src="https://images.pexels.com/photos/20234940/pexels-photo-20234940.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Bulk grain distribution"
+                alt="Supply Chain Case Study"
               />
             </div>
             <div className="case-content">
-              <h3 className="section-subtitle">Bulk Grain Streamlining</h3>
+              <h3 className="section-subtitle">Tech-Enabled Local Sourcing</h3>
               <p className="section-content">
-                &quot;The traceability from field to processor has given our
-                brand a major trust boost.&quot; — Miller&apos;s Choice
+                &quot;Integrating modern inventory management across our supply chain reduced margin leakage down to zero.&quot; — Agrilink Founder
               </p>
               <span className="case-outcome">
-                Outcome: Full Audit Compliance
+                Outcome: Full Value-Chain Integration
               </span>
             </div>
           </div>
@@ -667,29 +655,28 @@ const Services = (props) => {
             <div className="case-image">
               <img
                 src="https://images.pexels.com/photos/12529226/pexels-photo-12529226.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Retail supply chain"
+                alt="Retail Scale Case Study"
               />
             </div>
             <div className="case-content">
-              <h3 className="section-subtitle">Retail Supply Resilience</h3>
+              <h3 className="section-subtitle">Sustainable Off-Taker Network</h3>
               <p className="section-content">
-                &quot;Even during peak harvest, Quality Food Solutions kept our
-                retail network fully operational.&quot; — SuperMart Group
+                &quot;They matched us with regional enterprise buyers and helped us scale up to meet peak-demand requirements reliably.&quot; — SuperMart Supplier
               </p>
               <span className="case-outcome">
-                Outcome: 99.9% Shelf Availability
+                Outcome: +140% Job Creation
               </span>
             </div>
           </div>
         </div>
       </section>
+
       <section id="contact" className="contact-cta">
         <div className="contact-cta-container">
           <div className="contact-column">
-            <h2 className="section-title">Get in Touch</h2>
+            <h2 className="section-title">Partner With Us</h2>
             <p className="section-content">
-              Ready to optimize your food distribution? Contact our logistics
-              experts today.
+              Are you an established African SME ready to unlock structured capital and operational growth? Let's connect.
             </p>
             <div className="contact-methods">
               <div className="method-item">
@@ -728,22 +715,21 @@ const Services = (props) => {
                     <path d="M6 14a12 12 0 0 0 2.4 7.2a2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14M8 6v8"></path>
                   </g>
                 </svg>
-                <span>james@qualityfoodsolutions.co.za</span>
+                <span>partnerships@scaleafrica.co.za</span>
               </div>
             </div>
           </div>
           <div className="contact-column">
-          <div className="contact-column">
             <div className="cta-box">
               <h3 className="section-subtitle">Start Your Solution</h3>
               <p className="section-content">
-                Schedule a consultation or request a custom quote.
+                Schedule an assessment or request a custom scale-up blueprint consultation.
               </p>
               <div className="cta-buttons">
                 <button id="openQuoteModal" className="btn btn-accent btn-lg">
-                  Request a Quote
+                  Apply for Partnership
                 </button>
-                <a href="mailto:james@qualityfoodsolutions.co.za?subject=">
+                <a href="mailto:partnerships@scaleafrica.co.za?subject=Partnership Inquiry">
                   <div className="btn btn-lg btn-primary">
                     <span>Email Us</span>
                   </div>
@@ -753,120 +739,34 @@ const Services = (props) => {
           </div>
         </div>
       </section>
+
       <dialog id="quoteModal" className="quote-dialog">
         <div className="modal-header">
-          <h2 className="section-title">Request a Quote</h2>
-          <button id="closeQuoteModal" className="close-btn">
-            ×
-          </button>
+          <h2 className="modal-title">Apply for Partnership Assessment</h2>
+          <button id="closeQuoteModal" className="btn-close">×</button>
         </div>
-        <form
-          action="/submit-quote"
-          method="POST"
-          data-form-id="194acd36-5064-49d2-8e03-54884f6907f8"
-          className="quote-form"
-        >
-          <div className="form-group">
-            <label htmlFor="name">Full Name</label>
-            <input
-              type="text"
-              id="name"
-              name="true"
-              required
-              placeholder="John Doe"
-              data-form-field-id="name"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="email">Email Address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              placeholder="john@example.com"
-              data-form-field-id="email"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="service">Service Type</label>
-            <select id="service" name="service" data-form-field-id="service">
-              <option value="bulk">Bulk Distribution</option>
-              <option value="cold">Cold Chain</option>
-              <option value="warehousing">Warehousing</option>
-              <option value="consulting">Consulting</option>
-            </select>
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Details</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              placeholder="Tell us about your requirements..."
-              data-form-field-id="message"
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            id="thq_button_xX8n"
-            name="button"
-            data-form-field-id="thq_button_xX8n"
-            className="btn btn-accent"
-          >
-            Submit Request
-          </button>
-        </form>
+        <div className="modal-body">
+          <form className="modal-form">
+            <div className="form-group">
+              <label htmlFor="companyName">SME / Company Name</label>
+              <input type="text" id="companyName" placeholder="Enter your business name" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="annualRevenue">Annual Revenue (USD)</label>
+              <input type="text" id="annualRevenue" placeholder="e.g., $250k - $1M" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="sectors">Primary Industry Sector</label>
+              <input type="text" id="sectors" placeholder="e.g., Agro-processing, FMCG, Tech" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="message">Briefly describe your scaling bottlenecks</label>
+              <textarea id="message" rows="3" placeholder="Tell us how we can help..." required></textarea>
+            </div>
+            <button type="submit" className="btn btn-accent btn-lg">Submit Application</button>
+          </form>
+        </div>
       </dialog>
-      <div className="services-container2">
-        <div className="services-container3">
-          <Script
-            html={`<script defer data-name="quality-food-solutions-logic">
-(function(){
-  const modal = document.getElementById("quoteModal")
-  const openBtn = document.getElementById("openQuoteModal")
-  const closeBtn = document.getElementById("closeQuoteModal")
-
-  if (openBtn && modal && closeBtn) {
-    openBtn.addEventListener("click", () => {
-      modal.showModal()
-    })
-
-    closeBtn.addEventListener("click", () => {
-      modal.close()
-    })
-
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) {
-        modal.close()
-      }
-    })
-  }
-
-  const observerOptions = {
-    threshold: 0.1,
-  }
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = "1"
-        entry.target.style.transform = "translateY(0)"
-      }
-    })
-  }, observerOptions)
-
-  document.querySelectorAll(".service-card, .value-card, .process-step, .stat-card").forEach((el) => {
-    el.style.opacity = "0"
-    el.style.transform = "translateY(20px)"
-    el.style.transition = "all 0.6s ease-out"
-    observer.observe(el)
-  })
-})()
-</script>`}
-          ></Script>
-        </div>
-      </div>
       <Footer></Footer>
     </div>
   )
