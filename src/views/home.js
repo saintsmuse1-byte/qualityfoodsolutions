@@ -146,8 +146,8 @@ const Home = (props) => {
         <h3>Fleur</h3>
 
         <p>
-          Specialist in food safety systems, quality assurance and regulatory
-          compliance, helping businesses achieve consistent excellence.
+          Enterprise Development, Product Commercialisation & Market Access Specialist
+
         </p>
 
         <Link to="/fleur">
@@ -167,9 +167,8 @@ const Home = (props) => {
         <h3>James</h3>
 
         <p>
-          Experienced food industry consultant with extensive knowledge in
-          quality management, manufacturing systems and operational improvement.
-        </p>
+          Agribusiness, Food Processing & Enterprise Growth Specialist
+
 
         <Link to="/james">
           <button className="consultant-button">
