@@ -189,6 +189,62 @@ transform: translateY(0);}}
             ></Script>
           </div>
         </div>
+              {/* Consultants Section */}
+<section className="home-consultants-section">
+  <div className="home-consultants-container">
+    <h2>Meet Our Consultants</h2>
+    <p className="home-consultants-intro">
+      Our experienced consultants provide practical, science-based solutions
+      tailored to the food industry. Learn more about their expertise below.
+    </p>
+
+    <div className="home-consultants-grid">
+
+      <div className="consultant-card">
+        <img
+          src="/fleur.jpg"
+          alt="Fleur"
+          className="consultant-image"
+        />
+
+        <h3>Fleur</h3>
+
+        <p>
+          Specialist in food safety systems, quality assurance and regulatory
+          compliance, helping businesses achieve consistent excellence.
+        </p>
+
+        <Link to="/fleur">
+          <button className="consultant-button">
+            View Fleur's Profile
+          </button>
+        </Link>
+      </div>
+
+      <div className="consultant-card">
+        <img
+          src="/james.jpg"
+          alt="James"
+          className="consultant-image"
+        />
+
+        <h3>James</h3>
+
+        <p>
+          Experienced food industry consultant with extensive knowledge in
+          quality management, manufacturing systems and operational improvement.
+        </p>
+
+        <Link to="/james">
+          <button className="consultant-button">
+            View James's Profile
+          </button>
+        </Link>
+      </div>
+
+    </div>
+  </div>
+</section>
       </div>
     </div>
   )
