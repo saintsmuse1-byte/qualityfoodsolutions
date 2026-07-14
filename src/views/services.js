@@ -236,9 +236,8 @@ const Services = (props) => {
       <section className="supply-chain">
         <div className="supply-chain-container">
           <div className="supply-chain-header">
-            <h2 className="section-title">Our Scaling Framework</h2>
+            <h2 className="section-title">Our Strategic Objectives</h2>
             <p className="section-content">
-              Structured methodology designed to institutionalize, professionalize, and scale your operations.
             </p>
           </div>
           <div className="supply-chain-steps">
@@ -246,34 +245,34 @@ const Services = (props) => {
               <div className="step-number">
                 <span>01</span>
               </div>
-              <h3 className="section-subtitle">Operational Diagnostic</h3>
+              <h3 className="section-subtitle">Enterprise Resilience:</h3>
               <p className="section-content">
-                A thorough baseline analysis of current workflows, capacity bottlenecks, and margin leaks.
+                We help businesses build robust frameworks capable of weathering macroeconomic shifts and supply chain fluctuations.
               </p>
             </div>
             <div className="step-item">
               <div className="step-number">
                 <span>02</span>
               </div>
-              <h3 className="section-subtitle">Governance Setup</h3>
+              <h3 className="section-subtitle">Investment Readiness:</h3>
               <p className="section-content">
-                Upgrading internal reporting, financial audits, and executive advisory structures.
+                We transition operationally sound SMEs into institutional-grade targets ready for subsequent major funding rounds.
               </p>
             </div>
             <div className="step-item">
               <div className="step-number">
                 <span>03</span>
               </div>
-              <h3 className="section-subtitle">Targeted Interventions</h3>
+              <h3 className="section-subtitle">Sustainable Employment:</h3>
               <p className="section-content">
-                Deploying growth capital directly into key structural pain points like machinery or software.
+                By scaling commercially viable businesses, we actively foster long-term job creation and career development in local economies.
               </p>
             </div>
             <div className="step-item">
               <div className="step-number">
                 <span>04</span>
               </div>
-              <h3 className="section-subtitle">Institutional Readiness</h3>
+              <h3 className="section-subtitle">Local Value Chains:</h3>
               <p className="section-content">
                 Building comprehensive strategic data rooms to attract subsequent-stage institutional capital.
               </p>
@@ -281,167 +280,7 @@ const Services = (props) => {
           </div>
         </div>
       </section>
-
-      <section className="value-added">
-        <div className="value-added-container">
-          <div className="value-added-header">
-            <h2 className="section-title">Hands-On Value-Added Services</h2>
-            <p className="section-content">
-              Beyond finance—enhancing your business capabilities at every critical level.
-            </p>
-          </div>
-          <div className="value-added-grid">
-            <div className="value-card">
-              <div className="value-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m10 20l-1.25-2.5L6 18m4-14L8.75 6.5L6 6m4.585 9H10m-8-3h6.5L10 9m10 5.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"
-                  ></path>
-                  <path d="m4 10l1.5 2L4 14m3 7l3-6l-1.5-3M7 3l3 6h2"></path>
-                </svg>
-              </div>
-              <h3 className="section-subtitle">Strategic Advisory</h3>
-              <p className="section-content">
-                Connecting founders with industry veterans to refine product-market fit and commercial strategy.
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11"></path>
-                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8zM6 13h12M6 17h12"></path>
-                  </g>
-                </svg>
-              </div>
-              <h3 className="section-subtitle">Financial Restructuring</h3>
-              <p className="section-content">
-                Establishing world-class cash management, dynamic modeling, and robust bookkeeping pipelines.
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                    <path d="m9 12l2 2l4-4"></path>
-                  </g>
-                </svg>
-              </div>
-              <h3 className="section-subtitle">Compliance Audits</h3>
-              <p className="section-content">
-                Reviewing tax status, legal contracts, and environmental/ESG alignment to mitigate risk.
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73zm1 .27V12"></path>
-                    <path d="M3.29 7L12 12l8.71-5M7.5 4.27l9 5.15"></path>
-                  </g>
-                </svg>
-              </div>
-              <h3 className="section-subtitle">Tech Integration</h3>
-              <p className="section-content">
-                Integrating modern CRM, ERP, and automation tools into your existing hardware ecosystem.
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  >
-                    <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 6-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
-                    <path d="M14 2v5a1 1 0 0 0 1 1h5m-4 5l-3.5 3.5l-2-2L8 17"></path>
-                  </g>
-                </svg>
-              </div>
-              <h3 className="section-subtitle">ESG Strategy</h3>
-              <p className="section-content">
-                Aligning business models with local and global ESG metrics to unlock sustainable capital pools.
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
-                  ></path>
-                </svg>
-              </div>
-              <h3 className="section-subtitle">Leadership Development</h3>
-              <p className="section-content">
-                Coaching management teams and resolving recruitment hurdles to support rapid operational scaling.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+                  
       <section className="logistics-process">
         <div className="logistics-process-container">
           <div className="logistics-process-header">
@@ -478,9 +317,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">1. Discovery & Match</h3>
+              <h3 className="section-subtitle">Geography</h3>
               <p className="section-content">
-                Initial evaluation of your SME's market traction, fit, and scale goals.
+                Registered and operating within high-growth African markets.
               </p>
             </div>
             <div className="process-step">
@@ -503,9 +342,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">2. Deep Diagnostic</h3>
+              <h3 className="section-subtitle">Traction</h3>
               <p className="section-content">
-                Collaborative deep-dive into your financials, operations, and organizational gaps.
+                Must demonstrate proven commercial traction (clear, verifiable revenue streams; not early-stage ideation).
               </p>
             </div>
             <div className="process-step">
@@ -528,9 +367,9 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">3. Co-Investment</h3>
+              <h3 className="section-subtitle">Potential</h3>
               <p className="section-content">
-                Drafting terms, structured growth capital release, and hands-on target roadmap.
+                Highly scalable business models with clear room to expand regionally or vertically.
               </p>
             </div>
             <div className="process-step">
@@ -554,47 +393,10 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">4. Scale-Up Phase</h3>
+              <h3 className="section-subtitle">Alignment</h3>
               <p className="section-content">
-                Execution of systems upgrades, active scaling, and preparation for Series A/B.
+                Leadership teams committed to creating sustainable local employment and strong value chains.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="performance-stats">
-        <div className="performance-stats-container">
-          <div className="performance-stats-header">
-            <h2 className="section-title">Performance &amp; Scale Metrics</h2>
-            <p className="section-content">
-              The metrics that define our commitment to institutional growth and local impact.
-            </p>
-          </div>
-          <div className="performance-stats-grid">
-            <div className="stat-card">
-              <span className="stat-number">85%+</span>
-              <h3 className="section-subtitle">Average Job Growth</h3>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">100%</span>
-              <h3 className="section-subtitle">Governance Audit Compliance</h3>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">3.2x</span>
-              <h3 className="section-subtitle">Average Portfolio Scaling</h3>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">&lt; 12 Wks</span>
-              <h3 className="section-subtitle">Average Deal Close Time</h3>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">$15M+</span>
-              <h3 className="section-subtitle">Capital Catalyzed</h3>
-            </div>
-            <div className="stat-card">
-              <span className="stat-number">Zero</span>
-              <h3 className="section-subtitle">Compliance Breaches</h3>
             </div>
           </div>
         </div>
@@ -715,7 +517,7 @@ const Services = (props) => {
                     <path d="M6 14a12 12 0 0 0 2.4 7.2a2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14M8 6v8"></path>
                   </g>
                 </svg>
-                <span>partnerships@scaleafrica.co.za</span>
+                <span>james@qualityfoodsolutions.co.za</span>
               </div>
             </div>
           </div>
@@ -729,7 +531,7 @@ const Services = (props) => {
                 <button id="openQuoteModal" className="btn btn-accent btn-lg">
                   Apply for Partnership
                 </button>
-                <a href="mailto:partnerships@scaleafrica.co.za?subject=Partnership Inquiry">
+                <a href="mailto:james@qualityfoodsolutions.co.za?subject=Partnership Inquiry">
                   <div className="btn btn-lg btn-primary">
                     <span>Email Us</span>
                   </div>
