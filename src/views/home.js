@@ -123,6 +123,39 @@ const Home = (props) => {
             </div>
           </div>
         </section>
+
+        {/* --- NEW CONSULTING TEAM SECTION --- */}
+        <section className="core-services team-section">
+          <div className="core-services-container">
+            <div className="core-services-header">
+              <h2 className="section-title">The Expertise Behind Our Solutions</h2>
+              <p className="section-content">
+                We combine extensive corporate leadership, robust financial oversight, and meticulous operational strategy to guide enterprises through sustainable expansion.
+              </p>
+            </div>
+            <div className="core-services-grid team-grid">
+              <div className="service-card team-card">
+                <h3 className="section-subtitle">Senior Project Consultant</h3>
+                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
+                  Financial Oversight &amp; Infrastructure Strategy
+                </p>
+                <p className="section-content">
+                  Bringing a deep corporate background in construction oversight, asset management, and financial governance. He specializes in driving capital readiness, mitigating structural risk, and ensuring strict fiscal compliance for large-scale operations.
+                </p>
+              </div>
+              <div className="service-card team-card">
+                <h3 className="section-subtitle">Operational &amp; Design Consultant</h3>
+                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
+                  Value Chain Optimization &amp; Brand Dynamics
+                </p>
+                <p className="section-content">
+                  Specializing in scaling specialized operations, regional market integration, and aesthetic positioning. She bridges the gap between raw production capacity and premium commercial appeal, helping local supply chains establish premium visibility.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <div className="home-container3">
           <div className="home-container4">
             <Script
@@ -157,7 +190,6 @@ transform: translateY(0);}}
           </div>
         </div>
       </div>
-    
     </div>
   )
 }
