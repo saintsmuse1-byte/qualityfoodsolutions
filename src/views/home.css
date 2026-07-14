@@ -76,85 +76,230 @@
 }
 
 .home-consultants-section {
-  padding: 90px 20px;
-  background: #f8f8f8;
+  padding: 100px 20px;
+  background: #faf8f2;
 }
+
 
 .home-consultants-container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
-  text-align: center;
 }
+
 
 .home-consultants-container h2 {
-  font-size: 2.3rem;
-  margin-bottom: 15px;
-  color: #1f2937;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #233322;
 }
+
 
 .home-consultants-intro {
-  max-width: 700px;
-  margin: 0 auto 60px;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 80px;
+  line-height: 1.8;
   color: #666;
-  line-height: 1.7;
+  font-size: 18px;
 }
 
-.home-consultants-grid {
+
+/* Consultant layout */
+
+.consultant-profile {
+
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
+  align-items: center;
+  gap: 70px;
 
-.consultant-card {
-  width: 360px;
+  margin-bottom: 90px;
+
   background: white;
-  border-radius: 12px;
-  padding: 35px;
-  box-shadow: 0 8px 30px rgba(0,0,0,.08);
-  transition: .3s;
+  padding: 50px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 15px 40px rgba(0,0,0,.08);
+
 }
 
-.consultant-card:hover {
-  transform: translateY(-6px);
+
+.consultant-profile-reverse {
+
+  flex-direction: row-reverse;
+
 }
 
-.consultant-image {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
+
+/* Images */
+
+.consultant-photo-wrapper {
+
+  flex-shrink: 0;
+
+}
+
+
+.consultant-profile-image {
+
+  width: 280px;
+  height: 280px;
+
   object-fit: cover;
-  margin-bottom: 20px;
+
+  border-radius: 50%;
+
+  box-shadow:
+    0 15px 30px rgba(0,0,0,.15);
+
 }
 
-.consultant-card h3 {
-  margin-bottom: 15px;
-  color: #1f2937;
+
+
+/* Text */
+
+.consultant-profile-content {
+
+  flex: 1;
+
 }
 
-.consultant-card p {
-  color: #666;
-  line-height: 1.7;
-  margin-bottom: 30px;
+
+.consultant-label {
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  font-size: 12px;
+
+  color: #6c8b45;
+
+  font-weight: 600;
+
 }
 
-.consultant-button {
-  background: #3a7c2e;
-  color: white;
-  border: none;
-  padding: 14px 28px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 15px;
-  transition: .3s;
+
+.consultant-profile-content h3 {
+
+  font-size: 38px;
+
+  margin: 10px 0;
+
+  color: #233322;
+
 }
 
-.consultant-button:hover {
-  background: #2d6123;
+
+.consultant-profile-content h4 {
+
+  font-size: 20px;
+
+  font-weight: 500;
+
+  line-height: 1.5;
+
+  color: #555;
+
 }
 
-@media (max-width:768px) {
-  .consultant-card {
-    width: 100%;
-  }
+
+
+/* Tags */
+
+.consultant-tags {
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:10px;
+
+  margin:25px 0;
+
+}
+
+
+.consultant-tags span {
+
+  background:#edf3e7;
+
+  color:#496532;
+
+  padding:8px 15px;
+
+  border-radius:20px;
+
+  font-size:14px;
+
+}
+
+
+
+/* Button */
+
+.consultant-profile-button {
+
+  display:inline-block;
+
+  margin-top:15px;
+
+  padding:14px 28px;
+
+  background:#3f6f32;
+
+  color:white;
+
+  text-decoration:none;
+
+  border-radius:8px;
+
+  transition:.3s;
+
+}
+
+
+.consultant-profile-button:hover {
+
+  transform:translateY(-3px);
+
+  background:#2f5525;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:800px){
+
+
+.consultant-profile,
+.consultant-profile-reverse {
+
+  flex-direction:column;
+
+  text-align:center;
+
+  padding:35px;
+
+}
+
+
+.consultant-profile-image {
+
+  width:220px;
+  height:220px;
+
+}
+
+
+.consultant-tags {
+
+  justify-content:center;
+
+}
+
+
 }
