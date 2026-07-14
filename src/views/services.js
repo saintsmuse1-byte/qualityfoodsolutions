@@ -697,7 +697,7 @@ const Services = (props) => {
                     d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
                   ></path>
                 </svg>
-                <span>+1 (800) QUALITY-FOOD</span>
+                <span>+27 76 159 2717</span>
               </div>
               <div className="method-item">
                 <svg
@@ -717,7 +717,7 @@ const Services = (props) => {
                     <path d="M6 14a12 12 0 0 0 2.4 7.2a2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14M8 6v8"></path>
                   </g>
                 </svg>
-                <span>logistics@qualityfoodsolutions.com</span>
+                <span>james@qualityfoodsolutions.co.za</span>
               </div>
             </div>
           </div>
