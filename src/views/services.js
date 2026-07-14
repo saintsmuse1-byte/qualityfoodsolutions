@@ -39,18 +39,18 @@ const Services = (props) => {
         <div className="hero-maize-overlay"></div>
         <div className="hero-maize-content">
           <h1 className="hero-title">
-            Premier Distribution Services for a Growing World
+            Fueling the Scale of African Enterprise
           </h1>
-          <p className="hero-subtitle">Feeding Growth, Delivering Quality</p>
+          <p className="hero-subtitle">We partner with high-potential African SMEs that already demonstrate commercial traction, providing the capital, expertise, and operational support needed to scale sustainably.</p>
           <div className="hero-maize-actions">
             <a href="#contact">
               <div className="btn btn-accent btn-lg">
-                <span>Request a Consultation</span>
+                <span>Partner with Us</span>
               </div>
             </a>
             <a href="#services">
               <div className="btn btn-lg btn-outline">
-                <span>Explore Services</span>
+                <span>Explore Our Framework</span>
               </div>
             </a>
           </div>
@@ -59,10 +59,8 @@ const Services = (props) => {
       <section id="services" className="core-services">
         <div className="core-services-container">
           <div className="core-services-header">
-            <h2 className="section-title">Core Distribution Services</h2>
+            <h2 className="section-title">Our Mission in Action</h2>
             <p className="section-content">
-              Reliable food logistics tailored to every stage of the supply
-              chain.
             </p>
           </div>
           <div className="core-services-grid">
@@ -87,10 +85,12 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Bulk Grain Distribution</h3>
+              <h3 className="section-subtitle">01. Identifying Proven Traction</h3>
               <p className="section-content">
-                High-capacity transport systems for maize, wheat, and soy from
-                farm to silo.
+                We bypass early-stage ideation to focus exclusively on high-potential African SMEs 
+                      that have already proven their market fit. 
+                        By partnering with businesses that possess clear commercial momentum, 
+                        we ensure our resources are directed where they can catalyze immediate, viable growth.
               </p>
             </div>
             <div className="service-card">
@@ -113,10 +113,12 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Retail Deliveries</h3>
+              <h3 className="section-subtitle">02. Deploying Growth Capital</h3>
               <p className="section-content">
-                Last-mile precision ensuring supermarket shelves stay stocked
-                with fresh produce.
+            Scaling requires flexible, intentional financing. 
+                We inject targeted growth capital specifically structured to unlock operational bottlenecks, 
+                      fund machinery or technology upgrades, and provide the 
+                      runway needed to capture larger market shares.
               </p>
             </div>
             <div className="service-card">
@@ -137,11 +139,12 @@ const Services = (props) => {
                   ></path>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Contract Distribution</h3>
-              <h3 className="section-subtitle">Contract Distribution</h3>
+              <h3 className="section-subtitle">03. Embedding Operational Excellence</h3>
               <p className="section-content">
-                Dedicated logistics partnerships designed for long-term
-                stability and growth.
+                Capital alone isn't enough. We embed deep, hands-on operational and commercial
+                      expertise directly into our partner companies. 
+                      From streamlining internal workflows to refining pricing and 
+                      product development, we build structural strength from the inside out.
               </p>
             </div>
             <div className="service-card">
@@ -164,10 +167,13 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Direct-to-Processor</h3>
+              <h3 className="section-subtitle">04. Driving Investment Readiness</h3>
               <p className="section-content">
-                Streamlined shipping routes directly from harvesting sites to
-                processing facilities.
+                We prepare your business for its next institutional horizon. 
+                      By upgrading financial governance, compliance frameworks, 
+                      and strategic data rooms, we transition highly functional 
+                      SMEs into institutional-grade targets that are fully ready 
+                        for subsequent major funding rounds.
               </p>
             </div>
             <div className="service-card">
@@ -190,10 +196,13 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Wholesale Fulfillment</h3>
+              <h3 className="section-subtitle">05. Fostering Sustainable Employment</h3>
               <p className="section-content">
-                Large-scale order management for regional distributors and food
-                hubs.
+                True economic scale is measured by human impact. 
+                      Every partnership we form is deeply tied to 
+                      measurable job creation, turning commercial expansion 
+                        into stable, long-term employment opportunities and 
+                          career paths within local communities.
               </p>
             </div>
             <div className="service-card">
@@ -216,10 +225,12 @@ const Services = (props) => {
                   </g>
                 </svg>
               </div>
-              <h3 className="section-subtitle">Logistics Consulting</h3>
+              <h3 className="section-subtitle">06. Anchoring Local Value Chains</h3>
               <p className="section-content">
-                Expert analysis to optimize your supply chain routing and reduce
-                overhead costs.
+                We believe in keeping economic value where it originates.
+                      We actively help our partners secure broader market access, 
+                      elevate their raw value addition, and build resilient local 
+                      supply chains that reduce reliance on volatile external markets.
               </p>
             </div>
           </div>
