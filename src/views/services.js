@@ -284,9 +284,8 @@ const Services = (props) => {
       <section className="logistics-process">
         <div className="logistics-process-container">
           <div className="logistics-process-header">
-            <h2 className="section-title">Our Scaling Process</h2>
+            <h2 className="section-title">Partnership Criteria</h2>
             <p className="section-content">
-              A transparent, high-touch partnership journey built for rapid, reliable expansion.
             </p>
           </div>
           <div className="logistics-process-steps">
