@@ -75,231 +75,65 @@
   line-height: 24px;
 }
 
-.home-consultants-section {
-  padding: 100px 20px;
-  background: #faf8f2;
+
+/* ==========================================================================
+   NEW DYNAMIC CONSULTANT PROFILE SECTION STYLES
+   ========================================================================== */
+
+/* Smooth transitions for the container cards */
+.modern-consultant-card {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.4s ease, 
+              border-color 0.4s ease !important;
 }
 
-
-.home-consultants-container {
-  max-width: 1100px;
-  margin: auto;
+/* Elevate card slightly and highlight border/shadow on hover */
+.modern-consultant-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4) !important;
 }
 
-
-.home-consultants-container h2 {
-  text-align: center;
-  font-size: 42px;
-  margin-bottom: 20px;
-  color: #233322;
+/* Smooth transition behaviors for the action buttons */
+.see-profile-button {
+  transition: background-color 0.25s ease, 
+              transform 0.2s ease, 
+              color 0.25s ease !important;
 }
 
-
-.home-consultants-intro {
-  text-align: center;
-  max-width: 750px;
-  margin: 0 auto 80px;
-  line-height: 1.8;
-  color: #666;
-  font-size: 18px;
+/* Seamless background change on card hover */
+.modern-consultant-card:hover .see-profile-button {
+  background-color: #88a38f !important; /* Elegant mid-green */
+  color: #ffffff !important;
 }
 
-
-/* Consultant layout */
-
-.consultant-profile {
-
-  display: flex;
-  align-items: center;
-  gap: 70px;
-
-  margin-bottom: 90px;
-
-  background: white;
-  padding: 50px;
-
-  border-radius: 20px;
-
-  box-shadow: 0 15px 40px rgba(0,0,0,.08);
-
+/* Button-specific hover interaction */
+.see-profile-button:hover {
+  transform: scale(1.05) !important;
+  background-color: #a3bca9 !important;
+  color: #0c2214 !important;
 }
 
-
-.consultant-profile-reverse {
-
-  flex-direction: row-reverse;
-
+/* Soft click shrink animation */
+.see-profile-button:active {
+  transform: scale(0.96) !important;
 }
 
-
-/* Images */
-
-.consultant-photo-wrapper {
-
-  flex-shrink: 0;
-
-}
-
-
-.consultant-profile-image {
-
-  width: 280px;
-  height: 280px;
-
-  object-fit: cover;
-
-  border-radius: 50%;
-
-  box-shadow:
-    0 15px 30px rgba(0,0,0,.15);
-
-}
-
-
-
-/* Text */
-
-.consultant-profile-content {
-
-  flex: 1;
-
-}
-
-
-.consultant-label {
-
-  text-transform: uppercase;
-
-  letter-spacing: 2px;
-
-  font-size: 12px;
-
-  color: #6c8b45;
-
-  font-weight: 600;
-
-}
-
-
-.consultant-profile-content h3 {
-
-  font-size: 38px;
-
-  margin: 10px 0;
-
-  color: #233322;
-
-}
-
-
-.consultant-profile-content h4 {
-
-  font-size: 20px;
-
-  font-weight: 500;
-
-  line-height: 1.5;
-
-  color: #555;
-
-}
-
-
-
-/* Tags */
-
-.consultant-tags {
-
-  display:flex;
-
-  flex-wrap:wrap;
-
-  gap:10px;
-
-  margin:25px 0;
-
-}
-
-
-.consultant-tags span {
-
-  background:#edf3e7;
-
-  color:#496532;
-
-  padding:8px 15px;
-
-  border-radius:20px;
-
-  font-size:14px;
-
-}
-
-
-
-/* Button */
-
-.consultant-profile-button {
-
-  display:inline-block;
-
-  margin-top:15px;
-
-  padding:14px 28px;
-
-  background:#3f6f32;
-
-  color:white;
-
-  text-decoration:none;
-
-  border-radius:8px;
-
-  transition:.3s;
-
-}
-
-
-.consultant-profile-button:hover {
-
-  transform:translateY(-3px);
-
-  background:#2f5525;
-
-}
-
-
-
-/* Mobile */
-
-@media(max-width:800px){
-
-
-.consultant-profile,
-.consultant-profile-reverse {
-
-  flex-direction:column;
-
-  text-align:center;
-
-  padding:35px;
-
-}
-
-
-.consultant-profile-image {
-
-  width:220px;
-  height:220px;
-
-}
-
-
-.consultant-tags {
-
-  justify-content:center;
-
-}
-
-
+/* Responsive adjustments to maintain balance on mobile screens */
+@media (max-width: 768px) {
+  .consultant-profiles-section {
+    padding: 60px 16px !important;
+  }
+  
+  .consultant-profiles-section h2 {
+    font-size: 2rem !important;
+  }
+  
+  .modern-consultant-card {
+    padding: 32px 24px !important;
+  }
+  
+  .modern-consultant-card h3 {
+    font-size: 1.8rem !important;
+  }
 }
