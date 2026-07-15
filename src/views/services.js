@@ -421,7 +421,6 @@ const Services = (props) => {
                 Schedule an assessment or request a custom scale-up blueprint consultation.
               </p>
               <div className="cta-buttons">
-                </button>
                 <a href="mailto:james@qualityfoodsolutions.co.za?subject=Partnership Inquiry">
                   <div className="btn btn-lg btn-primary">
                     <span>Email Us</span>
