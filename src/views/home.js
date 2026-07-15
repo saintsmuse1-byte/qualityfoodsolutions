@@ -170,7 +170,7 @@ const Home = (props) => {
                   fontFamily: 'inherit'
                 }}
               >
-                Our Specialist Consultants
+                Meet The Team
               </h2>
               <div 
                 style={{ 
