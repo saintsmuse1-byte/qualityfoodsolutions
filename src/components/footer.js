@@ -29,9 +29,7 @@ const Footer = (props) => {
                 </span>
               </div>
               <p className="footer-description">
-                Feeding Growth, Delivering Quality. We specialize in efficient
-                food distribution networks that bridge the gap between harvest
-                and home.
+                Feeding Growth, Delivering Quality. We partner with high-potential African SMEs that already demonstrate commercial traction, providing the capital, expertise, and operational support needed to scale sustainably.
               </p>
               <div className="footer-social-links">
                 <a href="#">
