@@ -137,9 +137,9 @@ const Home = (props) => {
         </section>
 
         {/* --- DYNAMIC & MODERN CONSULTANT PROFILES SECTION --- */}
-        {/* Added id="consultants" as an anchor for navigation bar links */}
+        {/* Changed id from "consultants" to "about-us" to align with navigation bar link */}
         <section 
-          id="consultants"
+          id="about-us"
           className="consultant-profiles-section"
           style={{
             backgroundColor: '#0c2214', // Sophisticated Dark Green
