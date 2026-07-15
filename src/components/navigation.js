@@ -16,7 +16,7 @@ const Navigation = (props) => {
               className="navigation-brand"
             >
               <div className="navigation-logo-icon">
-                {/* --- THREE-LEAFED PLANT SVG (DESKTOP) --- */}
+                {/* --- PREMIUM ORGANIC CREST SVG (DESKTOP) --- */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -28,10 +28,10 @@ const Navigation = (props) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M7 20h10" />
-                  <path d="M10 20c5.5-2.5 8-6.4 8-12c-2.5 0-6.4 2.5-8 8" />
-                  <path d="M10 12.1a12.1 12.1 0 0 0-3.5-3.6" />
-                  <path d="M14 11a11.9 11.9 0 0 1 3.5-3" />
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 17c0-3 2-5.5 5-5.5-3 0-5 2.5-5 5.5z" />
+                  <path d="M12 17c0-3-2-5.5-5-5.5 3 0 5 2.5 5 5.5z" />
+                  <path d="M12 17V7" />
                 </svg>
               </div>
               <span className="navigation-brand-name">
@@ -105,7 +105,7 @@ const Navigation = (props) => {
               className="navigation-brand"
             >
               <div className="navigation-logo-icon">
-                {/* --- THREE-LEAFED PLANT SVG (MOBILE OVERLAY) --- */}
+                {/* --- PREMIUM ORGANIC CREST SVG (MOBILE OVERLAY) --- */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -117,10 +117,10 @@ const Navigation = (props) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M7 20h10" />
-                  <path d="M10 20c5.5-2.5 8-6.4 8-12c-2.5 0-6.4 2.5-8 8" />
-                  <path d="M10 12.1a12.1 12.1 0 0 0-3.5-3.6" />
-                  <path d="M14 11a11.9 11.9 0 0 1 3.5-3" />
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 17c0-3 2-5.5 5-5.5-3 0-5 2.5-5 5.5z" />
+                  <path d="M12 17c0-3-2-5.5-5-5.5 3 0 5 2.5 5 5.5z" />
+                  <path d="M12 17V7" />
                 </svg>
               </div>
               <span className="navigation-brand-name">
