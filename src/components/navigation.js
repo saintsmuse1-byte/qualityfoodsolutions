@@ -16,6 +16,7 @@ const Navigation = (props) => {
               className="navigation-brand"
             >
               <div className="navigation-logo-icon">
+                {/* --- THREE-LEAFED PLANT SVG (DESKTOP) --- */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -27,9 +28,10 @@ const Navigation = (props) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2m10 0H9m10 0h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
-                  <circle cx="17" cy="18" r="2"></circle>
-                  <circle cx="7" cy="18" r="2"></circle>
+                  <path d="M7 20h10" />
+                  <path d="M10 20c5.5-2.5 8-6.4 8-12c-2.5 0-6.4 2.5-8 8" />
+                  <path d="M10 12.1a12.1 12.1 0 0 0-3.5-3.6" />
+                  <path d="M14 11a11.9 11.9 0 0 1 3.5-3" />
                 </svg>
               </div>
               <span className="navigation-brand-name">
@@ -103,6 +105,7 @@ const Navigation = (props) => {
               className="navigation-brand"
             >
               <div className="navigation-logo-icon">
+                {/* --- THREE-LEAFED PLANT SVG (MOBILE OVERLAY) --- */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -114,9 +117,10 @@ const Navigation = (props) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2m10 0H9m10 0h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
-                  <circle cx="17" cy="18" r="2"></circle>
-                  <circle cx="7" cy="18" r="2"></circle>
+                  <path d="M7 20h10" />
+                  <path d="M10 20c5.5-2.5 8-6.4 8-12c-2.5 0-6.4 2.5-8 8" />
+                  <path d="M10 12.1a12.1 12.1 0 0 0-3.5-3.6" />
+                  <path d="M14 11a11.9 11.9 0 0 1 3.5-3" />
                 </svg>
               </div>
               <span className="navigation-brand-name">
