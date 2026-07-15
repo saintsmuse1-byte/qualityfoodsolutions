@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
+
+// --- 1. IMPORT NAVIGATION COMPONENT ---
+import Navigation from '../components/navigation'
+
 import './fleur.css'
 
 const FleurProfile = (props) => {
@@ -10,6 +14,10 @@ const FleurProfile = (props) => {
         <title>Fleur - Operational &amp; Design Consultant | Quality Food Solutions</title>
       </Helmet>
       
+      {/* --- 2. ADDED NAVIGATION BAR --- */}
+      <Navigation />
+      
+      {/* Optional: You can keep or remove this simple back button since you now have a full nav bar */}
       <div className="profile-header-nav">
         <Link to="/" className="back-home-btn">← Back to Home</Link>
       </div>
