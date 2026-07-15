@@ -124,47 +124,230 @@ const Home = (props) => {
           </div>
         </section>
 
-        {/* --- NEW CONSULTING TEAM SECTION --- */}
-        <section className="core-services team-section">
-          <div className="core-services-container">
-            <div className="core-services-header">
-              <h2 className="section-title">The Expertise Behind Our Solutions</h2>
-              <p className="section-content">
-                We combine extensive corporate leadership, robust financial oversight, and meticulous operational strategy to guide enterprises through sustainable expansion.
+        {/* --- DYNAMIC & MODERN CONSULTANT PROFILES SECTION --- */}
+        <section 
+          className="consultant-profiles-section"
+          style={{
+            backgroundColor: '#0c2214', // Sophisticated Dark Green
+            padding: '100px 24px',
+            color: '#FFFFFF',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          <div 
+            style={{
+              maxWidth: '1200px',
+              width: '100%',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '60px'
+            }}
+          >
+            <div style={{ textAlign: 'center' }}>
+              <h2 
+                style={{
+                  fontSize: '2.8rem',
+                  fontWeight: '700',
+                  marginBottom: '16px',
+                  color: '#F4F9F4',
+                  letterSpacing: '-0.02em',
+                  fontFamily: 'inherit'
+                }}
+              >
+                Our Specialist Consultants
+              </h2>
+              <div 
+                style={{ 
+                  height: '3px', 
+                  width: '60px', 
+                  backgroundColor: '#A3BCA9', 
+                  margin: '0 auto 24px auto', 
+                  borderRadius: '2px' 
+                }}
+              />
+              <p 
+                style={{
+                  fontSize: '1.15rem',
+                  color: '#A3BCA9',
+                  maxWidth: '700px',
+                  margin: '0 auto',
+                  lineHeight: '1.6'
+                }}
+              >
+                Meet the driving forces behind our strategic agricultural insights, enterprise development, and market expansions.
               </p>
             </div>
-            <div className="core-services-grid team-grid">
-              
-              {/* --- SENIOR PROJECT CONSULTANT (JAMES) LINK --- */}
-              <Link 
-                to="/james" 
-                className="service-card team-card" 
-                style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
-              >
-                <h3 className="section-subtitle">Senior Project Consultant</h3>
-                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
-                  Financial Oversight &amp; Infrastructure Strategy
-                </p>
-                <p className="section-content">
-                  Bringing a deep corporate background in construction oversight, asset management, and financial governance. He specializes in driving capital readiness, mitigating structural risk, and ensuring strict fiscal compliance for large-scale operations.
-                </p>
-              </Link>
 
-              {/* --- OPERATIONAL & DESIGN CONSULTANT (FLEUR) LINK --- */}
-              <Link 
-                to="/fleur" 
-                className="service-card team-card" 
-                style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
+            <div 
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                gap: '40px'
+              }}
+            >
+              {/* FLEUR PROFILE CARD */}
+              <div 
+                className="modern-consultant-card"
+                style={{
+                  backgroundColor: '#122d1b', // Lighter dark green contrasting card background
+                  borderRadius: '16px',
+                  padding: '48px 40px',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                  boxShadow: '0 12px 40px rgba(0, 0, 0, 0.2)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  transition: 'all 0.3s ease'
+                }}
               >
-                <h3 className="section-subtitle">Operational &amp; Design Consultant</h3>
-                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
-                  Value Chain Optimization &amp; Brand Dynamics
-                </p>
-                <p className="section-content">
-                  Specializing in scaling specialized operations, regional market integration, and aesthetic positioning. She bridges the gap between raw production capacity and premium commercial appeal, helping local supply chains establish premium visibility.
-                </p>
-              </Link>
+                <div>
+                  <div 
+                    style={{
+                      width: '64px',
+                      height: '64px',
+                      borderRadius: '12px',
+                      backgroundColor: 'rgba(255, 255, 255, 0.06)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      marginBottom: '28px',
+                      border: '1px solid rgba(255, 255, 255, 0.1)'
+                    }}
+                  >
+                    <span style={{ fontSize: '1.8rem', fontWeight: '500', color: '#88a38f' }}>F</span>
+                  </div>
+                  <h3 
+                    style={{
+                      fontSize: '2.2rem',
+                      fontWeight: '600',
+                      marginBottom: '16px',
+                      color: '#FFFFFF',
+                      letterSpacing: '-0.01em'
+                    }}
+                  >
+                    Fleur
+                  </h3>
+                  <p 
+                    style={{
+                      fontSize: '1.1rem',
+                      color: '#A3BCA9',
+                      lineHeight: '1.6',
+                      fontWeight: '500',
+                      marginBottom: '40px'
+                    }}
+                  >
+                    Enterprise Development, Product Commercialisation &amp; Market Access Specialist
+                  </p>
+                </div>
+                <Link 
+                  to="/fleur" 
+                  style={{ textDecoration: 'none', width: 'fit-content' }}
+                >
+                  <span 
+                    className="see-profile-button"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      padding: '12px 28px',
+                      borderRadius: '30px',
+                      backgroundColor: '#FFFFFF',
+                      color: '#0c2214',
+                      fontWeight: '600',
+                      fontSize: '0.95rem',
+                      letterSpacing: '0.03em',
+                      cursor: 'pointer',
+                      border: 'none',
+                      transition: 'all 0.25s ease'
+                    }}
+                  >
+                    see full profile
+                  </span>
+                </Link>
+              </div>
 
+              {/* JAMES PROFILE CARD */}
+              <div 
+                className="modern-consultant-card"
+                style={{
+                  backgroundColor: '#122d1b',
+                  borderRadius: '16px',
+                  padding: '48px 40px',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                  boxShadow: '0 12px 40px rgba(0, 0, 0, 0.2)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  transition: 'all 0.3s ease'
+                }}
+              >
+                <div>
+                  <div 
+                    style={{
+                      width: '64px',
+                      height: '64px',
+                      borderRadius: '12px',
+                      backgroundColor: 'rgba(255, 255, 255, 0.06)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      marginBottom: '28px',
+                      border: '1px solid rgba(255, 255, 255, 0.1)'
+                    }}
+                  >
+                    <span style={{ fontSize: '1.8rem', fontWeight: '500', color: '#88a38f' }}>J</span>
+                  </div>
+                  <h3 
+                    style={{
+                      fontSize: '2.2rem',
+                      fontWeight: '600',
+                      marginBottom: '16px',
+                      color: '#FFFFFF',
+                      letterSpacing: '-0.01em'
+                    }}
+                  >
+                    James
+                  </h3>
+                  <p 
+                    style={{
+                      fontSize: '1.1rem',
+                      color: '#A3BCA9',
+                      lineHeight: '1.6',
+                      fontWeight: '500',
+                      marginBottom: '40px'
+                    }}
+                  >
+                    Agribusiness, Food Processing &amp; Enterprise Growth Specialist
+                  </p>
+                </div>
+                <Link 
+                  to="/james" 
+                  style={{ textDecoration: 'none', width: 'fit-content' }}
+                >
+                  <span 
+                    className="see-profile-button"
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      padding: '12px 28px',
+                      borderRadius: '30px',
+                      backgroundColor: '#FFFFFF',
+                      color: '#0c2214',
+                      fontWeight: '600',
+                      fontSize: '0.95rem',
+                      letterSpacing: '0.03em',
+                      cursor: 'pointer',
+                      border: 'none',
+                      transition: 'all 0.25s ease'
+                    }}
+                  >
+                    see full profile
+                  </span>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
