@@ -46,6 +46,16 @@ const Navigation = (props) => {
                   </div>
                 </Link>
               </li>
+              
+              {/* --- ADDED ABOUT US LINK (DESKTOP) --- */}
+              <li>
+                <a href="/#about-us" style={{ textDecoration: 'none' }}>
+                  <div className="navigation-link">
+                    <span>About Us</span>
+                  </div>
+                </a>
+              </li>
+
               <li>
                 <Link to="/services">
                   <div className="navigation-link">
@@ -143,6 +153,16 @@ const Navigation = (props) => {
                 </div>
               </Link>
             </li>
+
+            {/* --- ADDED ABOUT US LINK (MOBILE) --- */}
+            <li>
+              <a href="/#about-us" style={{ textDecoration: 'none' }}>
+                <div className="navigation-mobile-link">
+                  <span>About Us</span>
+                </div>
+              </a>
+            </li>
+
             <li>
               <Link to="/services">
                 <div className="navigation-mobile-link">
