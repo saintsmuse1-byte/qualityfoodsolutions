@@ -53,7 +53,8 @@ const Home = (props) => {
                     <span>Explore Our Services</span>
                   </div>
                 </Link>
-                <a href="#contact-footer">
+                {/* FIXED: Anchor link now points to #contact */}
+                <a href="#contact">
                   <div className="hero-btn-lg custom-outline-white btn btn-lg btn-outline">
                     <span>Get in Touch</span>
                   </div>
@@ -137,12 +138,11 @@ const Home = (props) => {
         </section>
 
         {/* --- DYNAMIC & MODERN CONSULTANT PROFILES SECTION --- */}
-        {/* Changed id from "consultants" to "about-us" to align with navigation bar link */}
         <section 
           id="about-us"
           className="consultant-profiles-section"
           style={{
-            backgroundColor: '#0c2214', // Sophisticated Dark Green
+            backgroundColor: '#0c2214',
             padding: '100px 24px',
             color: '#FFFFFF',
             display: 'flex',
@@ -205,7 +205,7 @@ const Home = (props) => {
               <div 
                 className="modern-consultant-card"
                 style={{
-                  backgroundColor: '#122d1b', // Lighter dark green contrasting card background
+                  backgroundColor: '#122d1b',
                   borderRadius: '16px',
                   padding: '48px 40px',
                   border: '1px solid rgba(255, 255, 255, 0.08)',
@@ -388,8 +388,8 @@ const Home = (props) => {
           </div>
         </div>
         
-        {/* Added id="contact-footer" to resolve the scroll anchor target */}
-        <div id="contact-footer" className="home-container5">
+        {/* FIXED: Removed the incorrect ID from this container */}
+        <div className="home-container5">
           <div className="home-container6">
             <Script
               html={`<style>
@@ -402,8 +402,10 @@ transform: translateY(0);}}
           </div>
         </div>
 
-        {/* --- ADDED FOOTER COMPONENT --- */}
-        <Footer />
+        {/* --- ADDED FOOTER COMPONENT & WRAPPED WITH TARGET ID --- */}
+        <div id="contact">
+          <Footer />
+        </div>
       </div>
     </div>
   )
