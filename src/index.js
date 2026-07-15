@@ -23,9 +23,10 @@ const App = () => {
         <Route component={Home} exact path="/" />
         <Route component={Services} exact path="/services" />
         
-        {/* --- 2. ADDED NEW CONSULTANT ROUTE PATHS --- */}
-        <Route component={JamesProfile} exact path="/consultant-james" />
-        <Route component={FleurProfile} exact path="/consultant-fleur" />
+        {/* --- 2. UPDATED CONSULTANT ROUTE PATHS --- */}
+        {/* These now match the <Link to="..."> paths in your Home.js exactly */}
+        <Route component={JamesProfile} exact path="/james" />
+        <Route component={FleurProfile} exact path="/fleur" />
         
         {/* Keep these fallback catch-alls at the very bottom of the Switch list */}
         <Route component={NotFound} path="**" />
