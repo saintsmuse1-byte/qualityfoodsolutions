@@ -26,16 +26,26 @@ const FleurProfile = (props) => {
           <div className="profile-bio-section">
             <p className="profile-text">
               Fleur Robinson is an enterprise development and product commercialisation specialist with more than 25 years of experience spanning marketing, information technology, entrepreneurship and digital commerce. Over the past 16 years she has founded, built and grown a successful product-based business, gaining practical expertise in transforming ideas into commercially viable products and taking them successfully to market.
+            </p>
 
-Her experience covers the complete product commercialisation journey—from identifying market opportunities and developing new products through branding, packaging, customer testing and pricing, to digital commerce, online marketplace management and long-term business growth.
+            <p className="profile-text">
+              Her experience covers the complete product commercialisation journey—from identifying market opportunities and developing new products through branding, packaging, customer testing and pricing, to digital commerce, online marketplace management and long-term business growth.
+            </p>
 
-As founder of Eye-Dears, Fleur has personally designed, developed and commercialised more than 100 original products and built a multi-channel business selling through Shopify, Amazon South Africa and Takealot. This hands-on experience has provided practical insight into the challenges faced by small and growing enterprises, including product development, customer acquisition, market access, logistics, digital marketing and business scalability.
+            <p className="profile-text">
+              As founder of Eye-Dears, Fleur has personally designed, developed and commercialised more than 100 original products and built a multi-channel business selling through Shopify, Amazon South Africa and Takealot. This hands-on experience has provided practical insight into the challenges faced by small and growing enterprises, including product development, customer acquisition, market access, logistics, digital marketing and business scalability.
+            </p>
 
-Fleur is passionate about helping entrepreneurs and SMEs build stronger, more sustainable businesses. She works alongside founders to identify growth opportunities, improve products, strengthen branding, develop routes to market and increase commercial viability. Her approach combines strategic thinking with practical implementation, ensuring that advice can be translated into real commercial outcomes.
+            <p className="profile-text">
+              Fleur is passionate about helping entrepreneurs and SMEs build stronger, more sustainable businesses. She works alongside founders to identify growth opportunities, improve products, strengthen branding, develop routes to market and increase commercial viability. Her approach combines strategic thinking with practical implementation, ensuring that advice can be translated into real commercial outcomes.
+            </p>
 
-She has particular expertise in product development, product commercialisation, enterprise development, digital commerce, branding, packaging, customer experience and market access. Through her work she has supported the development of products for retail, wholesale and online markets while continually applying the lessons learned from operating and growing her own business.
+            <p className="profile-text">
+              She has particular expertise in product development, product commercialisation, enterprise development, digital commerce, branding, packaging, customer experience and market access. Through her work she has supported the development of products for retail, wholesale and online markets while continually applying the lessons learned from operating and growing her own business.
+            </p>
 
-Fleur believes that successful enterprise development is about more than providing advice—it is about working with entrepreneurs to develop businesses that are commercially sustainable, investment-ready and capable of creating lasting economic impact.
+            <p className="profile-text">
+              Fleur believes that successful enterprise development is about more than providing advice—it is about working with entrepreneurs to develop businesses that are commercially sustainable, investment-ready and capable of creating lasting economic impact.
             </p>
           </div>
         </div>
