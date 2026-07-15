@@ -134,7 +134,13 @@ const Home = (props) => {
               </p>
             </div>
             <div className="core-services-grid team-grid">
-              <div className="service-card team-card">
+              
+              {/* --- SENIOR PROJECT CONSULTANT (JAMES) LINK --- */}
+              <Link 
+                to="/consultant-james" 
+                className="service-card team-card" 
+                style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
+              >
                 <h3 className="section-subtitle">Senior Project Consultant</h3>
                 <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
                   Financial Oversight &amp; Infrastructure Strategy
@@ -142,8 +148,14 @@ const Home = (props) => {
                 <p className="section-content">
                   Bringing a deep corporate background in construction oversight, asset management, and financial governance. He specializes in driving capital readiness, mitigating structural risk, and ensuring strict fiscal compliance for large-scale operations.
                 </p>
-              </div>
-              <div className="service-card team-card">
+              </Link>
+
+              {/* --- OPERATIONAL & DESIGN CONSULTANT (FLEUR) LINK --- */}
+              <Link 
+                to="/consultant-fleur" 
+                className="service-card team-card" 
+                style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}
+              >
                 <h3 className="section-subtitle">Operational &amp; Design Consultant</h3>
                 <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
                   Value Chain Optimization &amp; Brand Dynamics
@@ -151,7 +163,8 @@ const Home = (props) => {
                 <p className="section-content">
                   Specializing in scaling specialized operations, regional market integration, and aesthetic positioning. She bridges the gap between raw production capacity and premium commercial appeal, helping local supply chains establish premium visibility.
                 </p>
-              </div>
+              </Link>
+
             </div>
           </div>
         </section>
