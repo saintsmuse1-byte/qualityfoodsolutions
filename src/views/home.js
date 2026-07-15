@@ -29,10 +29,12 @@ const Home = (props) => {
       <Navigation />
 
       <div className="home-container2">
-        <section className="home-thq-hero-section-elm hero-section">
+        {/* Added data-node-id attribute for scroll script */}
+        <section data-node-id="TQ_VyiQutQbnF" className="home-thq-hero-section-elm hero-section">
           <div className="hero-media-container">
             <div className="home-thq-hero-overlay-elm hero-overlay"></div>
-            <img src="/wheat.jpg" alt="image" className="home-image" />
+            {/* Added data-node-id attribute for scroll script */}
+            <img data-node-id="TQ_QLlM_GUdyK" src="/wheat.jpg" alt="image" className="home-image" />
           </div>
           <div className="hero-content-wrapper">
             <div className="hero-text-block">
@@ -132,7 +134,9 @@ const Home = (props) => {
         </section>
 
         {/* --- DYNAMIC & MODERN CONSULTANT PROFILES SECTION --- */}
+        {/* Added id="consultants" as an anchor for navigation bar links */}
         <section 
+          id="consultants"
           className="consultant-profiles-section"
           style={{
             backgroundColor: '#0c2214', // Sophisticated Dark Green
@@ -380,7 +384,9 @@ const Home = (props) => {
             ></Script>
           </div>
         </div>
-        <div className="home-container5">
+        
+        {/* Added id="contact-footer" to resolve the scroll anchor target */}
+        <div id="contact-footer" className="home-container5">
           <div className="home-container6">
             <Script
               html={`<style>
