@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
+
+// --- IMPORTED NAVIGATION COMPONENT ---
+import Navigation from '../components/navigation'
+
 import './james.css'
 
 const JamesProfile = (props) => {
@@ -10,6 +14,10 @@ const JamesProfile = (props) => {
         <title>James - Senior Project Consultant | Quality Food Solutions</title>
       </Helmet>
       
+      {/* --- ADDED NAVIGATION BAR --- */}
+      <Navigation />
+      
+      {/* Keep or remove this simple back button as you prefer, since the nav bar is now active */}
       <div className="profile-header-nav">
         <Link to="/" className="back-home-btn">← Back to Home</Link>
       </div>
