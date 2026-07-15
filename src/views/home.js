@@ -7,6 +7,9 @@ import { Helmet } from 'react-helmet'
 // --- IMPORTED NAVIGATION COMPONENT ---
 import Navigation from '../components/navigation'
 
+// --- IMPORTED FOOTER COMPONENT ---
+import Footer from '../components/footer'
+
 import './home.css'
 
 const Home = (props) => {
@@ -398,6 +401,9 @@ transform: translateY(0);}}
             ></Script>
           </div>
         </div>
+
+        {/* --- ADDED FOOTER COMPONENT --- */}
+        <Footer />
       </div>
     </div>
   )
