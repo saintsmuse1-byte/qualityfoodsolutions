@@ -37,11 +37,11 @@ const FleurProfile = (props) => {
             </p>
 
             <p className="profile-text">
-              Her experience covers the complete product commercialisation journey—from identifying market opportunities and developing new products through branding, packaging, customer testing and pricing, to digital commerce, online marketplace management and long-term business growth.
+              Her experience covers the complete product commercialisation journey: from identifying market opportunities and developing new products through branding, packaging, customer testing and pricing, to digital commerce, online marketplace management and long-term business growth.
             </p>
 
             <p className="profile-text">
-              As founder of Eye-Dears, Fleur has personally designed, developed and commercialised more than 100 original products and built a multi-channel business selling through Shopify, Amazon South Africa and Takealot. This hands-on experience has provided practical insight into the challenges faced by small and growing enterprises, including product development, customer acquisition, market access, logistics, digital marketing and business scalability.
+              As founder of Eye-Dears, Fleur has personally designed and commercialised more than 100 original products and built a multi-channel business selling through Shopify, Amazon South Africa and Takealot. This hands-on experience has provided practical insight into the challenges faced by small and growing enterprises, including product development, customer acquisition, market access, logistics, digital marketing and business scalability.
             </p>
 
             <p className="profile-text">
@@ -53,7 +53,7 @@ const FleurProfile = (props) => {
             </p>
 
             <p className="profile-text">
-              Fleur believes that successful enterprise development is about more than providing advice—it is about working with entrepreneurs to develop businesses that are commercially sustainable, investment-ready and capable of creating lasting economic impact.
+              Fleur believes that successful enterprise development is about more than providing advice; it is about working with entrepreneurs to develop businesses that are commercially sustainable and capable of creating lasting economic impact.
             </p>
           </div>
         </div>
