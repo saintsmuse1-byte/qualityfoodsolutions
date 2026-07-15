@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 
@@ -55,46 +54,9 @@ const Footer = (props) => {
                 </a>
               </div>
             </div>
-            <div className="footer-column">
-              <h3 className="footer-heading">Our Services</h3>
-              <ul className="footer-nav-list">
-                <li>
-                  <Link to="/services">
-                    <div className="footer-link">
-                      <span>Bulk Distribution</span>
-                    </div>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/services">
-                    <div className="footer-link">
-                      <span>Supply Chain Management</span>
-                    </div>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/services">
-                    <div className="footer-link">
-                      <span>Quality Assurance</span>
-                    </div>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/services">
-                    <div className="footer-link">
-                      <span>Logistics Solutions</span>
-                    </div>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/services">
-                    <div className="footer-link">
-                      <span>Agri-Business Support</span>
-                    </div>
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            
+            {/* SERVICES COLUMN REMOVED */}
+
             <div className="footer-column">
               <h3 className="footer-heading">Get In Touch</h3>
               <div className="footer-contact-info">
@@ -194,7 +156,7 @@ const Footer = (props) => {
     })
   })
 
-  // Ensure copyright year is current (though prompt specified 2026, dynamic is better for production)
+  // Ensure copyright year is current
   const copyrightElem = document.querySelector(".footer-copyright")
   if (copyrightElem) {
     const currentYear = new Date().getFullYear()
