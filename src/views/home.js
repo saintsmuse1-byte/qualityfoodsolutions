@@ -57,7 +57,7 @@ const Home = (props) => {
                   <div className="hero-btn-lg custom-outline-white btn btn-lg btn-outline">
                     <span>Get in Touch</span>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -137,9 +137,9 @@ const Home = (props) => {
         </section>
 
         {/* --- DYNAMIC & MODERN CONSULTANT PROFILES SECTION --- */}
-        {/* Added id="consultants" as an anchor for navigation bar links */}
+        {/* Changed id to "about-us" to align with the navigation bar links */}
         <section 
-          id="consultants"
+          id="about-us"
           className="consultant-profiles-section"
           style={{
             backgroundColor: '#0c2214', // Sophisticated Dark Green
