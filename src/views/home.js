@@ -124,7 +124,7 @@ const Home = (props) => {
           </div>
         </section>
 
-        {/* --- REVISED TEAM SECTION WITH IMAGES & BUTTONS --- */}
+        {/* --- NEW CONSULTING TEAM SECTION --- */}
         <section className="core-services team-section">
           <div className="core-services-container">
             <div className="core-services-header">
@@ -134,35 +134,24 @@ const Home = (props) => {
               </p>
             </div>
             <div className="core-services-grid team-grid">
-              
-              {/* James's Card */}
               <div className="service-card team-card">
-                <div className="team-image-wrapper">
-                  <img src="/james.jpg" alt="James" className="team-profile-img" />
-                </div>
-                <h3 className="section-subtitle" style={{ marginTop: '1.5rem' }}>James</h3>
-                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)', marginBottom: '1rem' }}>
-                  Senior Project Consultant
+                <h3 className="section-subtitle">Senior Project Consultant</h3>
+                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
+                  Financial Oversight &amp; Infrastructure Strategy
                 </p>
-                <Link to="/consultant-james" className="team-link-btn">
-                  <span>View Profile</span>
-                </Link>
+                <p className="section-content">
+                  Bringing a deep corporate background in construction oversight, asset management, and financial governance. He specializes in driving capital readiness, mitigating structural risk, and ensuring strict fiscal compliance for large-scale operations.
+                </p>
               </div>
-
-              {/* Fleur's Card */}
               <div className="service-card team-card">
-                <div className="team-image-wrapper">
-                  <img src="/fleur.jpg" alt="Fleur" className="team-profile-img" />
-                </div>
-                <h3 className="section-subtitle" style={{ marginTop: '1.5rem' }}>Fleur</h3>
-                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)', marginBottom: '1rem' }}>
-                  Operational &amp; Design Consultant
+                <h3 className="section-subtitle">Operational &amp; Design Consultant</h3>
+                <p className="section-content" style={{ fontWeight: '500', color: 'var(--dl-color-theme-accent1)' }}>
+                  Value Chain Optimization &amp; Brand Dynamics
                 </p>
-                <Link to="/consultant-fleur" className="team-link-btn">
-                  <span>View Profile</span>
-                </Link>
+                <p className="section-content">
+                  Specializing in scaling specialized operations, regional market integration, and aesthetic positioning. She bridges the gap between raw production capacity and premium commercial appeal, helping local supply chains establish premium visibility.
+                </p>
               </div>
-
             </div>
           </div>
         </section>
