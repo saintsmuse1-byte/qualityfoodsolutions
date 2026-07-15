@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
+// --- IMPORTED NAVIGATION COMPONENT ---
+import Navigation from '../components/navigation'
+
 import './home.css'
 
 const Home = (props) => {
@@ -21,6 +24,10 @@ const Home = (props) => {
           content="https://circular-self-reliant-sheep-lh9nyn.teleporthq.site/"
         />
       </Helmet>
+
+      {/* --- ADDED NAVIGATION BAR --- */}
+      <Navigation />
+
       <div className="home-container2">
         <section className="home-thq-hero-section-elm hero-section">
           <div className="hero-media-container">
