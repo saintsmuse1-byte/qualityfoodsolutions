@@ -6,7 +6,7 @@ import './footer.css'
 
 const Footer = (props) => {
   return (
-    <div className="footer-container1">
+    <div id="contact" className="footer-container1">
       <footer className="footer-root">
         <div className="footer-container">
           <div className="footer-grid">
