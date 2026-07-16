@@ -12,11 +12,16 @@ const Footer = (props) => {
           <div className="footer-grid">
             <div className="footer-column footer-brand-col">
               <div className="footer-logo-wrapper">
-                {/* REPLACED TEXT WITH IMAGE LOGO */}
+                {/* UPDATED: Larger size and rounded edges */}
                 <img 
                   src="/logo.jpg" 
                   alt="Quality Food Solutions Logo" 
-                  style={{ maxWidth: '200px', height: 'auto', display: 'block' }} 
+                  style={{ 
+                    maxWidth: '280px', 
+                    height: 'auto', 
+                    display: 'block', 
+                    borderRadius: '15px' 
+                  }} 
                 />
               </div>
               <p className="footer-description">
