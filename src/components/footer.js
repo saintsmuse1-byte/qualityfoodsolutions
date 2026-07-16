@@ -12,26 +12,18 @@ const Footer = (props) => {
           <div className="footer-grid">
             <div className="footer-column footer-brand-col">
               <div className="footer-logo-wrapper">
-                <span className="footer-brand-name">
-                  <span>
-                    {' '}
-                    Quality Food
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="footer-thq-footer-accent-text-elm">
-                    Solutions
-                  </span>
-                </span>
+                {/* REPLACED TEXT WITH IMAGE LOGO */}
+                <img 
+                  src="/logo.jpg" 
+                  alt="Quality Food Solutions Logo" 
+                  style={{ maxWidth: '200px', height: 'auto', display: 'block' }} 
+                />
               </div>
               <p className="footer-description">
                 Feeding Growth, Delivering Quality. We partner with high-potential African SMEs that already demonstrate commercial traction, providing the capital, expertise, and operational support needed to scale sustainably.
               </p>
               <div className="footer-social-links">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/your-profile-url-here" target="_blank" rel="noopener noreferrer">
                   <div aria-label="LinkedIn" className="footer-social-btn">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +135,6 @@ const Footer = (props) => {
           <Script
             html={`<script defer data-name="footer-interactivity">
 (function(){
-  // Simple micro-interaction for social buttons
   const socialButtons = document.querySelectorAll(".footer-social-btn")
 
   socialButtons.forEach((btn) => {
@@ -156,7 +147,6 @@ const Footer = (props) => {
     })
   })
 
-  // Ensure copyright year is current
   const copyrightElem = document.querySelector(".footer-copyright")
   if (copyrightElem) {
     const currentYear = new Date().getFullYear()
